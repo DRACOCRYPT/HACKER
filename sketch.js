@@ -37,7 +37,7 @@ function setup(){
     bird = new Bird(100,100);
 
 }
-
+ 
 function draw(){
     background(backgroundImg);
     Engine.update(engine);
@@ -60,5 +60,5 @@ function draw(){
     log5.display();
 
     bird.display();
-    platform.display();
+   platform.display();
 }
